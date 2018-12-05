@@ -1,21 +1,17 @@
 {
-  "name": "web_application",
+  "name": "nodejsapp",
   "version": "1.0.0",
-  "description": "Module for create Web_Application for User",
-  "main": "server.js",
+  "description": "This is create a simple nodejs application  ",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
-  "author": "Sanjay",
+  "author": "sanjay",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "concurrently": "^4.1.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "mongoose": "^5.3.14"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.7"
+    "path": "^0.12.7"
   }
 }
